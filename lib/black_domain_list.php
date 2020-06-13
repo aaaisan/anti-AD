@@ -57,8 +57,8 @@ return array(
     'szy.cn' => array('dtlog.szy.cn'),
     'adview.cn' => array('adview.cn'),
     'wrating.com' => array('wrating.com'),
-    'umengcloud.com' => array('umengcloud.com'),
-    'umeng.com' => array('umeng.com'),
+    'umengcloud.com' => array('umengcloud.com', 'ulogs.umengcloud.com'),
+    'umeng.com' => array('umeng.com', 'alogs.umeng.com'),
     'umeng.co' => array('umeng.co'),
     'dftoutiao.com' => array('dftoutiao.com'),
     'miaozhen.com' => array('miaozhen.com'),
@@ -146,7 +146,6 @@ return array(
     'xiaomi.com' => array(
         'data.mistat.intl.xiaomi.com',
         'data.mistat.xiaomi.com',
-        'adv.sec.miui.com',
         'ad.intl.xiaomi.com',
         'ad.xiaomi.com',
         'admob.xiaomi.com',
@@ -178,9 +177,6 @@ return array(
     ),
     'shareinstall.com.cn' => array(
         'shareinstall.com.cn' //移动广告商
-    ),
-    'atianqi.com' => array(
-        'atianqi.com' //广东南方新媒体股份有限公司
     ),
     'apple.com' => array(
         'iadsdk.apple.com',
@@ -255,9 +251,11 @@ return array(
         'hot.browser.intl.miui.com',
         'activity.browser.intl.miui.com',
         'adv.sec.intl.miui.com',
+        'adv.sec.miui.com',
         'api.brs.intl.miui.com',
         'api.newsfeed.intl.miui.com',
         'huangye.miui.com',
+        'browser.miui.com',
 
     ),
     'jd.com' => array(
@@ -607,6 +605,49 @@ return array(
     'googleapis.com' => array(
         'footprints-pa.googleapis.com',
     ),
+    'ebjvu.cn' => array(
+      'ebjvu.cn',
+    ),
+    'nvidia.com' => array(
+      'events.gfe.nvidia.com'
+    ),
+    'axbxgg.com' => array( // 恶意推广app下载
+      'axbxgg.com',
+      '2ydl.axbxgg.com',
+    ),
+    'rayjump.com' => array( // 广告域名 #98
+      'rayjump.com',
+      'adx-tk.rayjump.com',
+    ),
+    'baicizhan.org' => array( // 百词斩
+        'advertise.baicizhan.org',
+    ),
+    'baicizhan.com' => array( // 百词斩
+        'advertise.baicizhan.com',
+    ),
+    'yiche.com' => array( // 易车ad
+        'adx.yiche.com',
+        'log.ycapp.yiche.com',
+    ),
+    'csheaven.com' => array( // 总结到主域名上
+        'csheaven.com',
+    ),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

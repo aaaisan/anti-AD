@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202003311252
+! Version: 202006071223
 ! Title: CJX's Annoyance List
-! Last modified: 2020/03/31 12:52 +0800
+! Last modified: 2020/06/07 12:23 +0800
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/cjx82630/cjxlist
 !
@@ -65,6 +65,7 @@
 ||looyu.com^$third-party
 ||lxbjs.baidu.com^$third-party
 ||meiqia.com^$third-party
+||miduoke.net^$third-party
 ||mylikechat.com^$third-party
 ||ntalker.com^
 ||pop800.com^$third-party
@@ -73,6 +74,7 @@
 ||wpa.b.qq.com/cgi/wpa.php?
 ||zoosnet.net^$third-party
 ||zoossoft.cn^$third-party
+||easyliao.com^$third-party
 !---------------------------Popups--------------------------------------------!
 !--------------------------Specific blocking filters--------------------------!
 ||025yimei.com/templets/default/js/swt.js
@@ -128,7 +130,7 @@
 ||chinatimes.com/ads/
 ||cndns.com/incs/js/website_mobile.js
 ||con-article.hjapi.com/v1/txs/
-||cpu.baidu.com^
+||cpu.baidu.com^$third-party
 ||ctfile.com/img/*ssp
 ||daf-rs.com/imageViewer/wpAd
 ||dahe.cn/indiboy/ads/
@@ -388,7 +390,48 @@
 ||6080.tv/public/js/m/uaredirectformobile.js
 ||gliacloud.com/player/adgeek_teep
 ||365xuet.com/assets/web/js/main.jsr_
+||17house.com/zt/style/pc/js/zt_
+||y3600.cc/20
+||zupulu.com/scripts/app/app.js
+||yunzhan365.com/resourceFiles/js/weixin-share.js
+||127.net/m/*/promPic.jpg
+||xyj321.com/static/xyj/js/foot_slide_bar_
+||xyj321.com/static/zx/js/zx-con-jsq_
+||sinaimg.cn/wap/project/blog_to_news_banner/
+||zikao365.com/upload/js/pfgg/
+||gaosan.com/js/b.js
+||igo99.cn/js/freetest.js
 !------------------------Specific element hiding rules------------------------!
+igo99.cn##.adBG
+danzhaowang.com##.qxzx_scho
+redocn.com##.big_vip_gg
+redocn.com##.small_vip_gg
+yutu.cn###botfocus-res
+edutt.com##.foot-fixed
+360kan.com##.eb-rightbox
+bjx.com.cn##.layer_right2
+dyhjw.com##.index_luckdraw
+rrys2019.com###indexNav1
+acfun.cn##.pause-display
+examw.com###kefu_in
+examw.com##.acitvieLeftBox
+examw.com##.activeBottomBox
+dailiantong.com##.appDwn
+kankan.com###adv_box
+kankan.com###modal-adv
+kankan.com##.tuiguang_position
+xyj321.com##.foot_alert_wrap
+doc88.com##.dk-side-gif
+ltn.com.tw##.evt.e22
+epubee.com##.vipNoteBar
+58cam.com###append_parent
+58cam.com###huyou_nologin
+ximalaya.com##.dl-pc
+4399.com##BODY[bottommargin="22"] > TABLE[width="100%"]:first-child
+taptap.com###bottomBanner
+meijutt.tv###weixin_clos
+laohu8.com##.top-recommend
+laohu8.com##.app-button
 365xuet.com##.cd-items
 911cha.com##.adbox
 911cha.com##.sideqr
@@ -577,7 +620,7 @@ zuowen.com##.dialogP
 mcmod.cn###McmodDonate
 pupudy.com##.asst-post_header
 pupudy.com##.sidebar
-view.inews.qq.com##DIV[class^="_"][style="bottom: 0px;"][data-action-id="1"]
+view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 douyu.com###js-room-activity
 gdmm.com##a[href="http://www.gdmm.com/appdown/"]
 kingkong.com.tw##.public-activity
@@ -1200,6 +1243,10 @@ m.babytree.com##script + a[class]
 /v.gif?logtype=
 /yesky/js/counter/*
 /zcool-analytics.js
+||tracking.kdnet.net^
+||lnd.com.cn/sys/real_calc.js
+||sogou.com/dr/p1.gif
+||stat.jc001.cn^
 ||ip.tianqiapi.com^
 ||count.nuanyuehanxing.com^
 ||pconline.com.cn/ipJson.

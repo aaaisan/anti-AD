@@ -92,7 +92,6 @@ return array(
     'i.niupic.com' => 0, //免费图床地址
     'api-game.meizu.com' => 0, //魅族商店更新游戏
     'image.uczzd.cn' => 0, //uc头条的图片 #67
-    'zconfig.alibabausercontent.com' => 0, //阿里云app登录失效 #69
     'dg.k.jd.com' => 0, //京东不能跳转app
     'orbit.jd.com' => 0, //京东不能跳转app
     'kepler.jd.com' => 0, //京东不能跳转app
@@ -107,6 +106,46 @@ return array(
     'zimuku.la' => 0, // #84
     'qihucdn.com' => 0, // #89
     'sqimg.qq.com' => 0, // #90
+    'haohuo.snssdk.com' => 0, // 抖音订单列表
+    'acs.m.taobao.com' => 0, // #92
+    'perfops.net' => 0, // #96
+    'msg.video.qiyi.com' => 0, // #93
+    'img.zuoyebang.cc' => 0, // 作业帮拍照搜题
+    'data.video.iqiyi.com' => 0, // 爱奇艺电视投屏
+    'cp81.ott.cibntv.net' => 0, // CIBN云视听异常 #107
+    'sj.uukanshu.com' => 0, // 误杀 #110
+    'e.shifen.com' => 0, // 百度的某个cname域名，误杀严重
+    'gvt1.com' => 0, // google play #117
+    'apiwz.midukanshu.com' => 0, // #120
+    'api.jr.mi.com' => 0, // #121
+    'graph.facebook.com' => 0,
+    'image.box.xiaomi.com' => 0, // #124
+    'niuza.com' => 1, // #124
+    'sourl.cn' => 0, // #123
+    'pp.ua' => 0, // #131
+    'search.video.iqiyi.com' => 0, // #132
+    'wanproxy.127.net' => 0, // #137
+    'shouji.360.cn' => 0, // #136
+    'ae01.alicdn.com' => 0, // #142
+    'pingjs.qq.com' => 0, // #143
+    'shifen.com' => 0, // 百度的cname
+    'f10.baidu.com' => 0, // 百度公众号图片
+    'f11.baidu.com' => 0, // 百度公众号图片
+    'f12.baidu.com' => 0, // 百度公众号图片
+    'bj.bcebos.com' => 0, // 百度云产品    
+    'kingsoft.com' => 0, // 金山软件
+    'top.baidu.com' => 0, // 百度风云榜
+    'aiseet.atianqi.com' => 0, // #147
+    'data.bilibili.com' => 0, // #148
+
+    
+    
+    
+    
+    
+    
+
+
 
 
 
